@@ -32,7 +32,7 @@ jobs:
           echo "" >> $GITHUB_ENV
           old=$(ls -d */ | sort | tail -n 2 | head -n 1)
           new=$(ls -d */ | sort | tail -n 1)
-          echo "Here are your diffs for this pull request" >> $GITHUB_ENV
+          echo "Here are your diffs! for this! pull request" >> $GITHUB_ENV
           echo "" >> $GITHUB_ENV
           echo '## `admin-schema.json`' >> $GITHUB_ENV
           echo "" >> $GITHUB_ENV
